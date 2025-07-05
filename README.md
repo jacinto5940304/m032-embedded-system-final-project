@@ -6,7 +6,6 @@ This project presents a wearable embedded system built on the Nuvoton M032 micro
 
 The system consists of two ADXL345 sensors mounted on each thigh to capture motion data in 3D (X, Y, Z). These signals are processed to extract features like peak acceleration, which are used to train and infer activity using a lightweight ML model.
 
-![System Overview](images/system_overview.png)
 
 ## Hardware Setup
 
@@ -15,7 +14,6 @@ The system consists of two ADXL345 sensors mounted on each thigh to capture moti
 - Connection: Each sensor wired to SPI interface
 - Sampling Frequency: ~50 Hz per sensor
 
-![Hardware Diagram](images/hardware_diagram.png)
 
 ## Firmware
 
@@ -55,4 +53,6 @@ Collected datasets are processed using a Python notebook under `/model/model_tra
 ![image](https://github.com/user-attachments/assets/407907bf-ba2f-4791-b527-fef7d3664583)
 ![image](https://github.com/user-attachments/assets/980501ba-19ea-4ca6-b277-e09220fc310d)
 
+## DEMO
+[Demo Video](https://www.youtube.com/watch?v=aHFhqFQXUIc&ab_channel=%E6%AD%A6%E9%99%B5%E5%A4%A7%E7%AC%A8%E9%B3%A5)
 
